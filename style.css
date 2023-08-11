@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "WubbaLubbaDubDub";
+    src: url("fonts/WubbaLubbaDubDub.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    background-image: url("images/rick and morty.avif");
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1 {
+    font-family: "WubbaLubbaDubDub", sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.content {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content p {
+    font-size: 50px;
+    background-color: #bad001;
+    color: white;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
